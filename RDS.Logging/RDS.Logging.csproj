@@ -6,6 +6,8 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Version>1.0.3</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageProjectUrl>https://github.com/lkroliko/RDS.Logging</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
