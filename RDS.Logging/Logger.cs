@@ -73,5 +73,25 @@ namespace RDS.Logging
         {
             _logger.LogError(exception, message, args);
         }
+
+        public void Trace(string message)
+        {
+            _logger.LogTrace(message);
+        }
+
+        public void Trace(string message, params object[] args)
+        {
+            _logger.LogTrace(message, args);
+        }
+
+        public void Trace(Exception exception, string message)
+        {
+            _logger.LogTrace(exception, message);
+        }
+
+        public void Trace(Exception exception, string message, params object[] args)
+        {
+            _logger.LogTrace(exception, message, args);
+        }
     }
 }

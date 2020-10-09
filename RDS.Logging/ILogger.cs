@@ -18,5 +18,9 @@ namespace RDS.Logging
         void Error(string message, params object[] args);
         void Error(Exception exception, string message);
         void Error(Exception exception, string message, params object[] args);
+        void Trace(string message);
+        void Trace(string message, params object[] args);
+        void Trace(Exception exception, string message);
+        void Trace(Exception exception, string message, params object[] args);
     }
 }
